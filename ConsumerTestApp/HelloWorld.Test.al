@@ -1,4 +1,4 @@
-codeunit 50011 "HelloWorld Test"
+codeunit 50111 "Consumer HelloWorld Test"
 {
     Subtype = Test;
 
@@ -11,7 +11,7 @@ codeunit 50011 "HelloWorld Test"
         CustList.OpenView();
         CustList.Close();
         if (not MessageDisplayed) then
-            ERROR('Message was not displayed!');
+            Error('Message was not displayed!');
     end;
 
     [MessageHandler]
@@ -23,3 +23,4 @@ codeunit 50011 "HelloWorld Test"
     var
         MessageDisplayed: Boolean;
 }
+
