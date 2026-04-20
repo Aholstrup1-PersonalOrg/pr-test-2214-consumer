@@ -1,5 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v9.0/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/aholstrup1/fix-workspace-compilation-external-deps/Actions/.Modules/settings.schema.json",
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go@aholstrup1/fix-workspace-compilation-external-deps",
+  "templateSha": "fe8f17db3b199cd74184ce953f45cb0612684615"
 }
