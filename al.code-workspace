@@ -4,6 +4,9 @@
       "path": "ConsumerApp"
     },
     {
+      "path": "ConsumerTestApp"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
