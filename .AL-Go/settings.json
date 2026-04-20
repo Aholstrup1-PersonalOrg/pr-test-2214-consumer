@@ -1,7 +1,11 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/aholstrup1/fix-workspace-compilation-external-deps/Actions/.Modules/settings.schema.json",
   "country": "us",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": []
+  "appDependencyProbingPaths": [
+    {
+      "repo": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2214-dep",
+      "version": "latest",
+      "release_status": "latestBuild",
+      "authTokenSecret": "GhTokenWorkflow"
+    }
+  ]
 }
